@@ -30,10 +30,10 @@ main() {
     unzip resources_old.zip -d resources_old/
 
     msg "Downloading icon"
-    wget -O spotify_icon.ico https://raw.githubusercontent.com/faviouz/fix-spotify-icon/master/spotify_icon.ico
+    wget -O spotify-linux-512.png https://github.com/amoodie/random/blob/master/spotify_icons/spotify-linux-512.png
 
     msg "Replacing the icon"
-    cp spotify_icon.ico resources_old/_linux/spotify_icon.ico
+    cp spotify-linux-512.png resources_old/_linux/spotify-linux-512.png
 
     msg "Packaging resources.zip back up"
     cd resources_old/
