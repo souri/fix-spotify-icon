@@ -30,7 +30,7 @@ main() {
     unzip resources_old.zip -d resources_old/
 
     msg "Downloading icon"
-    wget -O spotify-linux-512.png https://github.com/amoodie/random/blob/master/spotify_icons/spotify-linux-512.png
+    wget -O spotify-linux-512.png https://raw.githubusercontent.com/souri/fix-spotify-icon/master/spotify-512.png
 
     msg "Replacing the icon"
     cp spotify-linux-512.png resources_old/_linux/spotify-linux-512.png
